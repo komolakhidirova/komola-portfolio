@@ -10,12 +10,12 @@ const Footer = () => {
 				<div className='footer__wrapper'>
 					<ul className='social'>
 						<li className='social__item'>
-							<a href='#!'>
+							<a href='https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile'>
 								<img src={linkedIn} alt='Link' />
 							</a>
 						</li>
 						<li className='social__item'>
-							<a href='#!'>
+							<a href='https://github.com/komolakhidirova'>
 								<img src={gitHub} alt='Link' />
 							</a>
 						</li>
