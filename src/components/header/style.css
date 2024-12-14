@@ -23,3 +23,9 @@
 	height: 450px;
 	animation: 10s linear infinite rotate;
 }
+
+@media (max-width: 620px) {
+
+	.header__bg {
+		height: 150px;
+	}
