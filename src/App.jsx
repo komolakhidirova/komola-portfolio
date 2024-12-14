@@ -17,10 +17,10 @@ function App() {
 				<ScrollToTop />
 				<Navbar />
 				<Routes>
-					<Route path='/komola-portfolio/home' element={<Home />} />
-					<Route path='/komola-portfolio/projects' element={<Projects />} />
-					<Route path='/komola-portfolio/project/:id' element={<Project />} />
-					<Route path='/komola-portfolio/contacts' element={<Contacts />} />
+					<Route path='/' element={<Home />} />
+					<Route path='/projects' element={<Projects />} />
+					<Route path='/project/:id' element={<Project />} />
+					<Route path='/contacts' element={<Contacts />} />
 				</Routes>
 				<Footer />
 			</Router>
