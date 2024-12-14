@@ -10,7 +10,7 @@ const Navbar = () => {
 		<nav className='nav'>
 			<div className='container'>
 				<div className='nav-row'>
-					<NavLink to='/komola-portfolio/home' className='logo'>
+					<NavLink to='/' className='logo'>
 						KOMOLA KHIDIROVA
 					</NavLink>
 
@@ -19,7 +19,7 @@ const Navbar = () => {
 					<ul className='nav-list'>
 						<li className='nav-list__item'>
 							<NavLink
-								to='/komola-portfolio/home'
+								to='/'
 								className={({ isActive }) =>
 									isActive ? activeLink : normalLink
 								}
@@ -29,7 +29,7 @@ const Navbar = () => {
 						</li>
 						<li className='nav-list__item'>
 							<NavLink
-								to='/komola-portfolio/projects'
+								to='/projects'
 								className={({ isActive }) =>
 									isActive ? activeLink : normalLink
 								}
@@ -39,7 +39,7 @@ const Navbar = () => {
 						</li>
 						<li className='nav-list__item'>
 							<NavLink
-								to='/komola-portfolio/contacts'
+								to='/contacts'
 								className={({ isActive }) =>
 									isActive ? activeLink : normalLink
 								}
