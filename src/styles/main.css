@@ -294,6 +294,10 @@ body {
 		min-height: unset;
 	}
 
+	.header__bg {
+		height: 350px;
+	}
+
 	.header__title {
 		font-size: 30px;
 	}
@@ -350,6 +354,11 @@ body {
 	.content-list__item {
 		font-size: 16px;
 	}
+
+	.content-list__skills{
+		grid-template-columns: 1fr
+	}
+		
 
 	/* Footer */
 
