@@ -280,6 +280,10 @@ body {
 	margin-top: 0.5em;
 }
 
+.skill {
+padding: 5px;
+}
+
 .content-list__skills {
 	margin-top: 0.5em;
 	display: grid;
