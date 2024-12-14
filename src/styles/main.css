@@ -296,7 +296,7 @@ body {
 
 	.header__bg {
 		height: 5px;
-	}
+}
 
 	.header__title {
 		font-size: 30px;
@@ -354,10 +354,6 @@ body {
 	.content-list__item {
 		font-size: 16px;
 	}
-
-.skill {
-padding: 5px;
-}
 
 	.content-list__skills{
 		grid-template-columns: 1fr 1fr;
