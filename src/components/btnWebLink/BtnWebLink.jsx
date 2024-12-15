@@ -4,7 +4,7 @@ import webLink from './webLink.svg'
 const BtnWebLink = ({ link }) => {
 	return (
 		<a href={link} target='_blank' rel='noreferrer' className='btn-outline'>
-			<img src={webLink} alt='' />
+			<img  className='btn-outline__img' src={webLink} alt='' />
 			Web Site
 		</a>
 	)
