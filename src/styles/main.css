@@ -306,6 +306,10 @@ body {
 		font-size: 40px;
 	}
 
+	.header__text {
+	font-size: 10px;
+}
+
 	/* Nav */
 
 	.nav-row {
