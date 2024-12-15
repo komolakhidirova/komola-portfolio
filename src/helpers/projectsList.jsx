@@ -2,7 +2,7 @@ import project01 from './../img/projects/01.png'
 
 const projects = [
 	{
-		title: 'Video Streaming Service',
+		title: 'Virtual Cinema',
 		skills: 'React, Node.js, MongoDB',
 		img: project01,
 
