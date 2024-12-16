@@ -259,6 +259,10 @@ body {
 
 	/* General */
 
+	.container {
+	padding-top: 140px;
+        }
+
 	.section {
 		padding: 40px 0;
 	}
