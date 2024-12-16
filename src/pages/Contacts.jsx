@@ -1,7 +1,9 @@
 const Contacts = () => {
 	return (
 		<>
+			<div className='title-1-container'>
 			<h1 className='title-1'>Contacts</h1>
+		        </div>
 		             <main className='section'>
 				<div className='container'>
 					<ul className='content-list'>
