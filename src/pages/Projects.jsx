@@ -3,9 +3,8 @@ import { projects } from '../helpers/projectsList'
 
 const Projects = () => {
 	return (
-		<>
+		<main className='section'>
 			<h2 className='title-1'>Projects</h2>
-			<main className='section'>
 				<div className='container'>
 					<ul className='projects'>
 						{projects.map((project, index) => {
@@ -21,7 +20,6 @@ const Projects = () => {
 					</ul>
 				</div>
 			</main>
-		</>
 	)
 }
 
