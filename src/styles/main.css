@@ -263,6 +263,7 @@ body {
 	}
 
 	.title-1 {
+		top: 70px;
 		margin-bottom: 30px;
 		font-size: 40px;
 	}
