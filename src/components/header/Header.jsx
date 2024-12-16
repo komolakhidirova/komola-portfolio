@@ -16,7 +16,7 @@ const Header = () => {
 				<div className='header__text'>
 					<p>Websites promote you 24/7. No employee will do that.</p>
 				</div>
-				<a href='#!' className='btn'>
+				<a href='' className='btn'>
 					<img className='btn__img' src={downloadImg} alt='download' />
 					CV
 				</a>
