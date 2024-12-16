@@ -14,8 +14,7 @@ const Header = () => {
 					<br />a Frontend Developer
 				</h1>
 				<div className='header__text'>
-					<p>Great development is a perfect balance</p>
-    	<p>of creativity and functionality.</p>
+					<p>Development = creativity + functionality.</p>
 				</div>
 				<a href='' className='btn'>
 					<img className='btn__img' src={downloadImg} alt='download' />
