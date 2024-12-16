@@ -14,7 +14,8 @@ const Header = () => {
 					<br />a Frontend Developer
 				</h1>
 				<div className='header__text'>
-					<p>Websites promote you 24/7. No employee will do that.</p>
+					<p>Great development is a perfect balance</p>
+    	<p>of creativity and functionality.</p>
 				</div>
 				<a href='' className='btn'>
 					<img className='btn__img' src={downloadImg} alt='download' />
