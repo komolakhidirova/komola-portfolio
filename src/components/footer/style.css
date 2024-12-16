@@ -11,6 +11,12 @@
 	color: var(--footer-text);
 }
 
+.footer-container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1200px;
+}
+ 
 .footer__wrapper {
 	display: flex;
 	flex-direction: column;
