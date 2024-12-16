@@ -1,6 +1,6 @@
 const Contacts = () => {
 	return (
-		<>
+		<div class='all'>
 			<h1 className='title-1'>Contacts</h1>
 			<main className='section'>
 				<div className='container'>
@@ -32,7 +32,7 @@ const Contacts = () => {
 					</ul>
 				</div>
 			</main>
-		</>
+		</div>
 	)
 }
 
