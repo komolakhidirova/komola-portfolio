@@ -42,4 +42,8 @@
 		row-gap: 20px;
 	}
 
+	.social {
+		column-gap: 20px;
+	}
+
 }
