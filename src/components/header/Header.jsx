@@ -14,7 +14,7 @@ const Header = () => {
 					<br />a Frontend Developer
 				</h1>
 				<div className='header__text'>
-					<p>Development = creativity + functionality.</p>
+					<p>Great Development = Creativity + Functionality</p>
 				</div>
 				<a href='' className='btn'>
 					<img className='btn__img' src={downloadImg} alt='download' />
