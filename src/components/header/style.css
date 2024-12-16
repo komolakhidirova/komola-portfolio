@@ -19,11 +19,6 @@
 	text-align: center;
 }
 
-.header__bg {
-	height: 450px;
-	animation: 10s linear infinite rotate;
-}
-
 @keyframes rotate {
 	from {
 		transform: rotate(0deg);
@@ -32,6 +27,11 @@
 	to {
 		transform: rotate(360deg);
 	}
+}
+
+.header__bg {
+	height: 450px;
+	animation: 10s linear infinite rotate;
 }
 
 @media (max-width: 620px) {
