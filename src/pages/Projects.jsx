@@ -4,7 +4,9 @@ import { projects } from '../helpers/projectsList'
 const Projects = () => {
 	return (
 		<>
+			<div className='title-1-container'>
 			<h2 className='title-1'>Projects</h2>
+			</div>
 		                <main className='section'>
 				<div className='container'>
 					<ul className='projects'>
