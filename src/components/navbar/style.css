@@ -1,10 +1,14 @@
 .nav {
-	position: sticky;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 	padding: 20px 0;
 	background-color: var(--nav-bg);
 	border-bottom: 1px solid var(--nav-border);
 	color: var(--nav-text);
 	letter-spacing: normal;
+	z-index: 3;
 }
 
 .nav-row {
