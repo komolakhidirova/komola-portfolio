@@ -8,7 +8,7 @@ const Navbar = () => {
 
 	return (
 		<nav className='nav'>
-			<div className='nav-container'>
+			<div className='container'>
 				<div className='nav-row'>
 					<NavLink to='/' className='logo'>
 						KOMOLA KHIDIROVA
