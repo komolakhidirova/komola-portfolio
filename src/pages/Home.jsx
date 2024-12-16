@@ -10,9 +10,8 @@ import styledComponentsImg from './../img/icons/styled-components.svg'
 
 const Home = () => {
 	return (
-		<>
+		<main className='section'>
 			<Header />
-			<main className='section'>
 				<div className='container'>
 					<ul className='content-list'>
 						<li className='content-list__item'>
@@ -38,7 +37,6 @@ const Home = () => {
 					</ul>
 				</div>
 			</main>
-		</>
 	)
 }
 
