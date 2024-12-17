@@ -74,13 +74,10 @@
 	/* Header  */
 
 	.header {
+		padding: 60 0px;
 		margin-top: 105px;
 		min-height: unset;
 	}
-
-	.header__wrapper {
-	padding: 0 30px;
-        }
 
 	.header__bg {
 		height: 270px;
