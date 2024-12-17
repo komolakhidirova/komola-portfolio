@@ -70,13 +70,6 @@ body {
 	flex-direction: column;
 }
 
-.header__wrapper {
-	position: absolute;
-	padding: 0 15px;
-	max-width: 660px;
-	z-index: 5;
-}
-
 /* General */
 
 .container {
