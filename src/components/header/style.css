@@ -20,6 +20,13 @@
 	text-align: center;
 }
 
+.header__wrapper {
+	position: absolute;
+	padding: 0 15px;
+	max-width: 660px;
+	z-index: 5;
+}
+
 .header__title {
 	margin-bottom: 20px;
 	font-size: 40px;
