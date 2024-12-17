@@ -2,9 +2,9 @@ const Contacts = () => {
 	return (
 		<>
 			<div className='title-1-container'>
-			<h1 className='title-1'>Contacts</h1>
-		        </div>
-		             <main className='section'>
+				<h1 className='title-1'>Contacts</h1>
+			</div>
+			<main className='section'>
 				<div className='container'>
 					<ul className='content-list'>
 						<li className='content-list__item'>
@@ -34,7 +34,7 @@ const Contacts = () => {
 					</ul>
 				</div>
 			</main>
-			</>
+		</>
 	)
 }
 
