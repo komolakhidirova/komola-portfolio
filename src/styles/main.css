@@ -222,7 +222,6 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 20px;
-	margin-top: 20px;
 }
 
 /* Content list */
@@ -252,6 +251,7 @@ body {
 
 .content-list__skills {
 	margin-top: 0.5em;
+	margin-bottom: 30px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	gap: 30px;
