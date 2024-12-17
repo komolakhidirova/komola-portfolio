@@ -19,9 +19,9 @@ const Project = () => {
 	return (
 		<>
 			<div className='title-1-container'>
-			<h1 className='title-1'>{project.title}</h1>
-		        </div>
-		                <main className='section'>
+				<h1 className='title-1'>{project.title}</h1>
+			</div>
+			<main className='section'>
 				<div className='container'>
 					<div className='project-details'>
 						<img
@@ -60,7 +60,7 @@ const Project = () => {
 					</div>
 				</div>
 			</main>
-			</>
+		</>
 	)
 }
 
