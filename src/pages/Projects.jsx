@@ -5,9 +5,9 @@ const Projects = () => {
 	return (
 		<>
 			<div className='title-1-container'>
-			<h2 className='title-1'>Projects</h2>
+				<h2 className='title-1'>Projects</h2>
 			</div>
-		                <main className='section'>
+			<main className='section'>
 				<div className='container'>
 					<ul className='projects'>
 						{projects.map((project, index) => {
@@ -23,7 +23,7 @@ const Projects = () => {
 					</ul>
 				</div>
 			</main>
-			</>
+		</>
 	)
 }
 
