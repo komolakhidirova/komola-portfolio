@@ -1,7 +1,7 @@
 .header {
 	margin-top: 60px;
 	padding: 40px 0;
-	min-height: 1000px;
+	min-height: 695px;
 
 	display: flex;
 	justify-content: center;
@@ -67,6 +67,7 @@
 	/* Header  */
 
 	.header {
+		min-height: 500px;
 		margin-top: 105px;
 		min-height: unset;
 	}
