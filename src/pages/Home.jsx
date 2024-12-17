@@ -12,7 +12,7 @@ const Home = () => {
 	return (
 		<>
 			<Header />
-		                <main className='section'>
+			<main className='section'>
 				<div className='container'>
 					<ul className='content-list'>
 						<li className='content-list__item'>
@@ -38,7 +38,7 @@ const Home = () => {
 					</ul>
 				</div>
 			</main>
-			</>
+		</>
 	)
 }
 
