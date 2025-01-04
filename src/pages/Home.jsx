@@ -47,16 +47,19 @@ const Home = () => {
 
 								<p><strong>Bachelor</strong></p>
 								<div className='content-list__uni'>
-								<Education img={siilImg} text={'Information Systems and Technology'} link={certificate}/>
+									<a href={certificate} download='certificate_of_enrollment.pdf' className='btn'>
+										<Education img={siilImg} text={'Information Systems and Technology'}/>
+									</a>
 								</div>
+								
 								
 								<p><strong>Courses</strong></p>
 								<div className='content-list__education'>
-								<Education img={dukeImg} text={'Software Engineering'} link={'https://www.coursera.org/account/accomplishments/specialization/3ADBB89SCWT3'}/>
-								<Education img={googleImg} text={'UX Design'} link={'https://www.coursera.org/account/accomplishments/professional-cert/5JP5YVM5B36P'}/>
-								<Education img={googleImg} text={'Digital Marketing'} link={'https://www.coursera.org/account/accomplishments/professional-cert/U3GKBRH7J94J'}/>
-								<Education img={googleImg} text={'Project Management'} link={'https://www.coursera.org/account/accomplishments/professional-cert/PMC3LLGYK5V2'}/>
-							</div>
+									<Education img={dukeImg} text={'Software Engineering'} link={'https://www.coursera.org/account/accomplishments/specialization/3ADBB89SCWT3'}/>
+									<Education img={googleImg} text={'UX Design'} link={'https://www.coursera.org/account/accomplishments/professional-cert/5JP5YVM5B36P'}/>
+									<Education img={googleImg} text={'Digital Marketing'} link={'https://www.coursera.org/account/accomplishments/professional-cert/U3GKBRH7J94J'}/>
+									<Education img={googleImg} text={'Project Management'} link={'https://www.coursera.org/account/accomplishments/professional-cert/PMC3LLGYK5V2'}/>
+							        </div>
 						</li>
 					</ul>
 				</div>
