@@ -44,12 +44,12 @@ const Home = () => {
 						<li className='content-list__item'>
 							<h2 className='title-2'>Education</h2>
 
-								<p><strong>Institute</strong></p>
+								<p><strong>Bachelor</strong></p>
 								<div className='content-list__uni'>
-								<Education img={siilImg} text={'Bachelor in Information Systems and Technology'}/>
+								<Education img={siilImg} text={'Information Systems and Technology'}/>
 								</div>
 								
-								<p><strong>Coursera</strong></p>
+								<p><strong>Courses</strong></p>
 								<div className='content-list__education'>
 								<Education img={dukeImg} text={'Software Engineering'} link={'https://www.coursera.org/account/accomplishments/specialization/3ADBB89SCWT3'}/>
 								<Education img={googleImg} text={'UX Design'} link={'https://www.coursera.org/account/accomplishments/professional-cert/5JP5YVM5B36P'}/>
