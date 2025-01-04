@@ -17,7 +17,7 @@ const Header = () => {
 				<div className='header__text'>
 					<p>Great Development = Creativity + Functionality</p>
 				</div>
-				<a href={certificate} download='certificate_of_enrollment.pdf' className='btn'>
+				<a href='' className='btn'>
 					<img className='btn__img' src={downloadImg} alt='download' />
 					CV
 				</a>
