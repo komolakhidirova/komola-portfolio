@@ -1,4 +1,5 @@
 import Skill from '../components/btnSkill/BtnSkill'
+import Education from '../components/btnEducation/BtnEducation'
 import Header from '../components/header/Header'
 import CssImg from './../img/icons/css.svg'
 import FirebaseImg from './../img/icons/firebase.svg'
@@ -6,6 +7,9 @@ import HtmlImg from './../img/icons/html.svg'
 import JsImg from './../img/icons/js.svg'
 import ReactImg from './../img/icons/react.svg'
 import ReduxImg from './../img/icons/redux.svg'
+import googleImg from './../img/icons/google.png'
+import dukeImg from './../img/icons/duke.png'
+import siilImg from './../img/icons/siil.png'
 import styledComponentsImg from './../img/icons/styled-components.svg'
 
 const Home = () => {
@@ -28,12 +32,30 @@ const Home = () => {
 								<Skill img={styledComponentsImg} text={'Styled Components'} />
 							</div>
 						</li>
+
 						<li className='content-list__item'>
 							<h2 className='title-2'>Soft Skills</h2>
 							<p>
 								Problem-solving, critical thinking, discipline, communication
 								skills and self-learning.
 							</p>
+						</li>
+
+						<li className='content-list__item'>
+							<h2 className='title-2'>Education</h2>
+
+								<p><strong>Institute</strong></p>
+								<div className='content-list__uni'>
+								<Education img={siilImg} text={'Bachelor in Information Systems and Technology'}/>
+								</div>
+								
+								<p><strong>Coursera</strong></p>
+								<div className='content-list__education'>
+								<Education img={dukeImg} text={'Software Engineering'} link={'https://www.coursera.org/account/accomplishments/specialization/3ADBB89SCWT3'}/>
+								<Education img={googleImg} text={'UX Design'} link={'https://www.coursera.org/account/accomplishments/professional-cert/5JP5YVM5B36P'}/>
+								<Education img={googleImg} text={'Digital Marketing'} link={'https://www.coursera.org/account/accomplishments/professional-cert/U3GKBRH7J94J'}/>
+								<Education img={googleImg} text={'Project Management'} link={'https://www.coursera.org/account/accomplishments/professional-cert/PMC3LLGYK5V2'}/>
+							</div>
 						</li>
 					</ul>
 				</div>
