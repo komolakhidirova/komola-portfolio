@@ -1,4 +1,5 @@
 import triangle from './../../img/header-bg-triangle.png'
+import certificate from './../../img/certificate.pdf'
 import downloadImg from './../../img/icons/download.svg'
 import './style.css'
 
@@ -16,7 +17,7 @@ const Header = () => {
 				<div className='header__text'>
 					<p>Great Development = Creativity + Functionality</p>
 				</div>
-				<a href='' className='btn'>
+				<a href={certificate} download='certificate_of_enrollment.pdf' className='btn'>
 					<img className='btn__img' src={downloadImg} alt='download' />
 					CV
 				</a>
