@@ -10,6 +10,7 @@ import ReduxImg from './../img/icons/redux.svg'
 import googleImg from './../img/icons/google.png'
 import dukeImg from './../img/icons/duke.png'
 import siilImg from './../img/icons/siil.png'
+import certificate from './../../img/certificate.pdf'
 import styledComponentsImg from './../img/icons/styled-components.svg'
 
 const Home = () => {
@@ -46,7 +47,7 @@ const Home = () => {
 
 								<p><strong>Bachelor</strong></p>
 								<div className='content-list__uni'>
-								<Education img={siilImg} text={'Information Systems and Technology'}/>
+								<Education img={siilImg} text={'Information Systems and Technology'} link={certificate}/>
 								</div>
 								
 								<p><strong>Courses</strong></p>
