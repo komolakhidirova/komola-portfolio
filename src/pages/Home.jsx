@@ -47,9 +47,7 @@ const Home = () => {
 
 								<p><strong>Bachelor</strong></p>
 								<div className='content-list__uni'>
-									<a href={certificate} download='certificate_of_enrollment.pdf' className='btn'>
-										<Education img={siilImg} text={'Information Systems and Technology'}/>
-									</a>
+									<Education img={siilImg} text={'Information Systems and Technology'} link={certificate}/>
 								</div>
 								
 								
