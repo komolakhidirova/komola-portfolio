@@ -250,6 +250,22 @@ body {
 	gap: 30px;
 }
 
+.content-list__education {
+	margin-top: 0.5em;
+	margin-bottom: 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 30px;
+}
+
+.content-list__uni {
+	margin-top: 0.5em;
+	margin-bottom: 30px;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 30px;
+}
+
 @media (max-width: 620px) {
 
 	/* General */
@@ -290,6 +306,14 @@ body {
 
 	.content-list__skills{
 		grid-template-columns: 1fr 1fr;
+	}
+
+	.content-list__education {
+		grid-template-columns: 1fr;
+	}
+
+	.siil {
+		width: 200px;
 	}
 		
 	/* Social */
