@@ -259,7 +259,7 @@ body {
 
 .content-list__uni {
 	margin-top: 0.5em;
- margin-bottom: 20px;
+  margin-bottom: 20px;
 	display: grid;
 	grid-template-columns: 1fr;
 	gap: 30px;
