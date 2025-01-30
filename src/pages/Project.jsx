@@ -9,6 +9,8 @@ import HtmlImg from './../img/icons/html.svg'
 import JsImg from './../img/icons/js.svg'
 import ReactImg from './../img/icons/react.svg'
 import ReduxImg from './../img/icons/redux.svg'
+import ThreeImg from './../img/icons/threeJs.svg'
+import GsapImg from './../img/icons/gsap.png'
 import styledComponentsImg from './../img/icons/styled-components.svg'
 
 // Page
@@ -44,6 +46,8 @@ const Project = () => {
 										<Skill img={FirebaseImg} text={'Firebase'} />
 									)}
 									{project.Redux && <Skill img={ReduxImg} text={'Redux'} />}
+									{project.ThreeJs && <Skill img={ThreeImg} text={'ThreeJS'} />}
+									{project.GSAP && <Skill img={GsapImg} text={'GSAP'} />}
 									{project.StyledComponents && (
 										<Skill
 											img={styledComponentsImg}
