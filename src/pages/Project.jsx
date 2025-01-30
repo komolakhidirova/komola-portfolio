@@ -46,7 +46,7 @@ const Project = () => {
 										<Skill img={FirebaseImg} text={'Firebase'} />
 									)}
 									{project.Redux && <Skill img={ReduxImg} text={'Redux'} />}
-									{project.ThreeJs && <Skill img={ThreeImg} text={'ThreeJS'} />}
+									{project.ThreeJS && <Skill img={ThreeImg} text={'ThreeJS'} />}
 									{project.GSAP && <Skill img={GsapImg} text={'GSAP'} />}
 									{project.StyledComponents && (
 										<Skill
