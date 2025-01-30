@@ -1,4 +1,5 @@
 import project01 from './../img/projects/01.png'
+import project02 from './../img/projects/02.png'
 
 const projects = [
 	{
@@ -17,7 +18,7 @@ const projects = [
 	{
 		title: '3D Presentation',
 		skills: 'React, Node.js, MongoDB',
-		img: project01,
+		img: project02,
 
 		React: 'y',
 		CSS: 'y',
