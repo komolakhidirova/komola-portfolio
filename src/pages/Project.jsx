@@ -36,8 +36,8 @@ const Project = () => {
 						<ul className='content-list'>
 							<li className='content-list__item'>
 								<div className='content-list__skills'>
-									{project.JS && <Skill img={JsImg} text={'JavaScript'} />}
 									{project.React && <Skill img={ReactImg} text={'React'} />}
+									{project.JS && <Skill img={JsImg} text={'JavaScript'} />}
 									{project.HTML && <Skill img={HtmlImg} text={'HTML'} />}
 									{project.CSS && <Skill img={CssImg} text={'CSS'} />}
 									{project.Firebase && (
