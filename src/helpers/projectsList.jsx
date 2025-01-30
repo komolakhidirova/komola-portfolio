@@ -24,6 +24,8 @@ const projects = [
 		React: 'y',
 		JS: 'y',
 		CSS: 'y',
+		ThreeJS: 'y',
+		GSAP: 'y',
 		webLink: 'https://komolakhidirova.github.io/3d-presentation/',
 		gitHubLink: 'https://github.com/komolakhidirova/3d-presentation',
 	},
