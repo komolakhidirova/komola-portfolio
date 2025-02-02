@@ -13,7 +13,7 @@ const projects = [
 		StyledComponents: 'y',
 		webLink: 'https://video-streaming-service-53ac2.web.app/home',
 		gitHubLink: 'http://github.com',
-	},
+	}
 ]
 
 export { projects }
