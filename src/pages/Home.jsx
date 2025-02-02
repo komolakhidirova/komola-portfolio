@@ -23,7 +23,7 @@ const Home = () => {
 				<div className='container'>
 					<ul className='content-list'>
 						<li className='content-list__item'>
-							<h2 className='title-2'>Key Skills</h2>
+							<h2 className='title-2'>Key Skills Hello?</h2>
 
 							<div className='content-list__skills'>
 								<Skill img={JsImg} text={'JavaScript'} />
