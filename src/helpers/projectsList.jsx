@@ -16,19 +16,6 @@ const projects = [
 		webLink: 'https://video-streaming-service-53ac2.web.app/home',
 		gitHubLink: 'https://github.com/komolakhidirova/video-streaming-service',
 	},
-	// {
-	// 	title: '3D Presentation',
-	// 	skills: 'React, Node.js, MongoDB',
-	// 	img: project02,
-
-	// 	React: 'y',
-	// 	JS: 'y',
-	// 	CSS: 'y',
-	// 	ThreeJS: 'y',
-	// 	GSAP: 'y',
-	// 	webLink: 'https://komolakhidirova.github.io/3d-presentation/',
-	// 	gitHubLink: 'https://github.com/komolakhidirova/3d-presentation',
-	// },
 ]
 
 export { projects }
