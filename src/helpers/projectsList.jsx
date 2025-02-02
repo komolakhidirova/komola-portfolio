@@ -1,5 +1,4 @@
 import project01 from './../img/projects/01.png'
-import project02 from './../img/projects/02.png'
 
 const projects = [
 	{
