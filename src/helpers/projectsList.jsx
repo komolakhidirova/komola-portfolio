@@ -15,7 +15,7 @@ const projects = [
 		StyledComponents: 'y',
 		webLink: 'https://video-streaming-service-53ac2.web.app/home',
 		gitHubLink: 'https://github.com/komolakhidirova/video-streaming-service',
-	},
+	}
 ]
 
 export { projects }
