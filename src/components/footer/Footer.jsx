@@ -10,7 +10,7 @@ const Footer = () => {
 				<div className='footer__wrapper'>
 					<ul className='social'>
 						<li className='social__item'>
-							<a href='https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile' target='_blank'>
+							<a href='https://www.linkedin.com/in/komola-khidirova-857620240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='_blank'>
 								<img src={linkedIn} alt='Link' />
 							</a>
 						</li>
