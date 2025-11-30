@@ -114,7 +114,7 @@ const socialImgs = [
 	},
 	{
 		name: 'linkedin',
-		url: 'https://www.linkedin.com/in/komola-khidirova-857620240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+		url: 'www.linkedin.com/in/komola-khidirova-857620240',
 		imgPath: '/images/logos/linkedIn.svg',
 	},
 ]
