@@ -90,14 +90,14 @@ const Showcase = () => {
 						</div>
 						<div ref={project3Ref} className='project'>
 							<div className='image-wrapper bg-[#e7ffda]'>
-								<img src='/images/project3.png' alt='YCD' />
+								<img src='/images/project3.png' alt='CreatePostcard' />
 							</div>
 							<a
-								href='https://velvet-pour-kappa.vercel.app'
+								href='https://create-postcard.vercel.app'
 								target='_blank'
 								className='relative hover:text-gray-300'
 							>
-								<h2>Delicious experience from Velvet Pour.</h2>
+								<h2>Create Your Beautiful Postcard.</h2>
 								<img
 									src='/images/link.svg'
 									className='h-6 absolute left-40 top-1'
