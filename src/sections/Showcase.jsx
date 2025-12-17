@@ -51,7 +51,7 @@ const Showcase = () => {
 				<div className='showcaselayout'>
 					<div ref={project1Ref} className='first-project-wrapper'>
 						<div className='image-wrapper'>
-							<img src='/images/project1.png' alt='Ryde' />
+							<img src='/images/project1.png' alt='UpSkilla' />
 						</div>
 						<div className='text-content'>
 							<a
@@ -74,7 +74,7 @@ const Showcase = () => {
 					<div className='project-list-wrapper overflow-hidden'>
 						<div ref={project2Ref} className='project'>
 							<div className='image-wrapper bg-[#d8e6ff]'>
-								<img src='/images/project2.png' alt='LMP' />
+								<img src='/images/project2.png' alt='TravelAgency' />
 							</div>
 							<a
 								href='https://travel-agency-eight-theta.vercel.app'
